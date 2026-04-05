@@ -39,7 +39,6 @@ Currently, Voltstrap is exclusively supported on PCs running **Windows**.
 - 🚀 **Lightning Fast:** Automatically optimizes your Roblox framerates with built-in presets.
 - 🎨 **State-of-the-Art Interface:** Carefully crafted, user-friendly design featuring a native Dark Mode aesthetic.
 - ⚙️ **Easy to Use:** Apply entire configurations with a single click or build your own custom sets.
-- 🎮 **Ban-Free Guarantee:** By strictly operating on `ClientAppSettings.json`, the risk of penalization remains zero.
 
 ## 📥 Installation
 
