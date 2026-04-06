@@ -42,7 +42,7 @@ Currently, Voltstrap is exclusively supported on PCs running **Windows**.
 
 ## 📥 Installation
 
-1. Download the [latest version of Voltstrap (v1.0)](https://github.com/qecistt/Voltstrap/releases/tag/v1.0).
+1. Download the [latest version of Voltstrap (v2.0)](https://github.com/qecistt/Voltstrap/releases/tag/v2.0).
 2. Extract the contents of the `.zip` file into a safe directory.
 3. Run the `.exe` file found inside.
 4. That's it! Configure the software to your liking and apply your changes.
